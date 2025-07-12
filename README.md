@@ -1,7 +1,6 @@
 # My Portfolio App
-In my portfolio, I will use nextjs, tailwindcss, 
+This is my portfolio app, I will share my experience, blogs and minimum things related to me here! 
 
----
 ## 🚀 Features
 Home – Engaging introduction and overview
 Projects – Showcase of personal and collaborative projects with descriptions and links
@@ -12,7 +11,6 @@ Dark/Light Mode – Theme toggle for improved readability
 Internationalization – Supports Turkish, English, and German languages
 SEO Optimized – Meta tags and Open Graph support
 
----
 ## 🛠️ Tech Stack
 
 Framework: Next.js with TypeScript (React)
@@ -23,7 +21,6 @@ Form Handling: React Hook Form or Formik
 Deployment: GitHub Pages
 Analytics: Google Analytics
 
----
 ## 📦 Installation
 ### Clone the repository
 git clone https://github.com/buraktnv/portfolio.git
