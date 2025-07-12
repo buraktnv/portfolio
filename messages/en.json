@@ -2,5 +2,13 @@
   "HomePage": {
     "title": "Hello world!",
     "about": "Go to the about page"
+  },
+  "Navigation": {
+    "home": "Home",
+    "pathnames": "Pathnames"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} tr {ᴛʀ Turkish} other {Unknown}}"
   }
 }

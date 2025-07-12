@@ -2,5 +2,13 @@
   "HomePage": {
     "title": "Merhaba Dünya!",
     "about": "About Page'e Git"
+  },
+  "Navigation": {
+    "home": "Startseite",
+    "pathnames": "Pathnames"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} tr {tr Turkish} other {Unknown}}"
   }
 }

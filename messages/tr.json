@@ -2,5 +2,13 @@
   "HomePage": {
     "title": "Merhaba Dünya!",
     "about": "About Page'e Git"
+  },
+  "Navigation": {
+    "home": "Anasayfa",
+    "pathnames": "Pathnames"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
   }
 }
