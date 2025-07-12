@@ -1,5 +1,6 @@
 # My Portfolio App
 In my portfolio, I will use nextjs, tailwindcss, 
+
 ---
 ## 🚀 Features
 Home – Engaging introduction and overview
@@ -10,8 +11,10 @@ Contact – Easy-to-use form and links to social profiles
 Dark/Light Mode – Theme toggle for improved readability
 Internationalization – Supports Turkish, English, and German languages
 SEO Optimized – Meta tags and Open Graph support
+
 ---
 ## 🛠️ Tech Stack
+
 Framework: Next.js with TypeScript (React)
 Styling: Tailwind CSS
 Data Fetching: TanStack Query (React Query)
@@ -19,6 +22,7 @@ State Management: React Context
 Form Handling: React Hook Form or Formik
 Deployment: GitHub Pages
 Analytics: Google Analytics
+
 ---
 ## 📦 Installation
 ### Clone the repository
