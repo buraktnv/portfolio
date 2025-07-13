@@ -5,6 +5,7 @@
   },
   "Navigation": {
     "home": "Home",
+    "about": "About",
     "pathnames": "Pathnames"
   },
   "LocaleSwitcher": {

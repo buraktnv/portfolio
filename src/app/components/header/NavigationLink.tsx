@@ -13,12 +13,14 @@ export default function NavigationLink({
   const pathname = selectedLayoutSegment ? `/${selectedLayoutSegment}` : '/';
   const isActive = pathname === href;
 
+  console.log("href", href, "pathname", pathname, isActive);
+
   return (
     <Link
       aria-current={isActive ? 'page' : undefined}
       className={clsx(
         'inline-block px-2 py-3 transition-colors',
-        isActive ? 'text-white' : 'text-gray-400 hover:text-gray-200'
+        isActive ? 'text-gray-400' : 'text-gray-800 hover:text-gray-200'
       )}
       href={href}
       {...rest}

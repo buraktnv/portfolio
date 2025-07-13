@@ -5,10 +5,11 @@
   },
   "Navigation": {
     "home": "Anasayfa",
+    "about": "Hakkında",
     "pathnames": "Pathnames"
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} other {Unknown}}"
+    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} tr {ᴛʀ Turkish} other {Unknown}}"
   }
 }

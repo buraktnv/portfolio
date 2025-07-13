@@ -5,6 +5,7 @@
   },
   "Navigation": {
     "home": "Startseite",
+    "about": "About",
     "pathnames": "Pathnames"
   },
   "LocaleSwitcher": {
