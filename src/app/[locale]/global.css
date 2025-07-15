@@ -1,20 +1,79 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Base */
+  --background:    #ffffff;
+  --surface:       #f7f7f7;
+  --foreground:    #171717;
+  --muted:         #6b6b6b;
+
+  /* Accent palette */
+  --primary:       #0070f3;
+  --secondary:     #ff4081;
+  --accent:        #e2e8f0;
+
+  /* Semantic colors */
+  --border:        #e1e1e1;
+  --hover:         #f0f0f0;
+  --highlight:     #fffae5;
+  --error:         #e00;
+  --warning:       #f5a623;
+  --success:       #007a3d;
+  --info:          #0366d6;
+}
+
+/* Dark theme */
+.dark {
+  /* Base */
+  --background:    #212121;
+  --surface:       #1b3b6f;
+  --foreground:    #ffffff;
+  --muted:         #a7bbc7;
+
+  /* Accent palette */
+  --primary:       #3e92cc;
+  --secondary:     #ff79a9;
+  --accent:        #2a4d69;
+
+  /* Semantic colors */
+  --border:        #2f4f6f;
+  --hover:         #1e3656;
+  --highlight:     #37474f;
+  --error:         #ff4d4f;
+  --warning:       #ffa940;
+  --success:       #40c057;
+  --info:          #339af0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--background);
 }
 
 @theme inline {
+  /* Core colors */
   --color-background: var(--background);
+  --color-surface:    var(--surface);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-muted:      var(--muted);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Accent palette */
+  --color-primary:    var(--primary);
+  --color-secondary:  var(--secondary);
+  --color-accent:     var(--accent);
+
+  /* Semantic colors */
+  --color-border:     var(--border);
+  --color-hover:      var(--hover);
+  --color-highlight:  var(--highlight);
+
+  /* Feedback */
+  --color-error:      var(--error);
+  --color-warning:    var(--warning);
+  --color-success:    var(--success);
+  --color-info:       var(--info);
+
+  /* Fonts */
+  --font-sans:        var(--font-geist-sans);
+  --font-mono:        var(--font-geist-mono);
 }

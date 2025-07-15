@@ -5,7 +5,7 @@ export default function HomePage() {
   const t = useTranslations('HomePage');
   return (
     <div>
-      <main className='container mx-auto'>
+      <main className='container mx-auto bg-background'>
         <h1>{t('title')}</h1>
         <Link href="/about">{t('about')}</Link>
       </main>

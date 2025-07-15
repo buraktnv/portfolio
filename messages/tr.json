@@ -1,7 +1,30 @@
 {
   "HomePage": {
-    "title": "Merhaba Dünya!",
-    "about": "About Page'e Git"
+    "title": "Selamlar! Ben Burak T👋",
+    "solution": "Uçtan Uca Web Çözümleri",
+    "expertise": "Bir Bilgisayar Mühendisi olarak ölçeklenebilir uygulamalar geliştirme, kullanıcı deneyimini iyileştirme, geliştirme süreçlerini optimize etme, AWS yapılandırmaları yapma ve SEO stratejileri oluşturma konularında uzmanım.",
+    "iCanHelpYouWith": {
+      "title": "Şu Konularda Yardımcı Olabilirim",
+      "subjects": [
+        {
+          "title": "Geliştirme",
+          "description": "Ölçeklenebilir web uygulamaları, geliştirme işlemlerinin akıcılığının sağlanması, bire bir tasarım geçişleri konusunda yardımcı olabilirim. Frontend için NextJS kullanmakta kendimi rahat hissdiyorum, animasyonlar için Framer Motion kullanmaktan hoşlanıyorum. Backend için ExpressJS kullanmayı, database için ihtiyaca göre hareket etmeyi tercih ediyorum ancak genel olarak MySQL ve MongoDB kullanmayı tercih ediyorum."
+        },
+        {
+          "title": "Analytics & İzleme",
+          "description": "Google Analytics, Google Tag Manager ve benzeri izleme/analitik araçlarının kurulumunu yapıyor; özel event takibi, raporlama dashboard’ları ve veri katmanı (dataLayer) yönetimi sağlıyorum."
+        },
+        {
+          "title": "Deployment",
+          "description": "Deployment paketinde AWS üzerinde VPC ve subnet yapılandırması, Security Group’larla port yönetimi, Application Load Balancer ve SSL sertifika kurulumu, Auto Scaling grubu tanımlaması ve CI/CD pipeline entegrasyonu gerçekleştiriyorum; gerekirse RDS veya diğer managed veritabanı servisleri yapılandırabiliyor, CloudFront CDN ve WAF entegrasyonu, CloudWatch metrikleri ve alarm tanımlamaları ile izleme ve loglama çözümleri ekleyebiliyorum."
+        },
+        {
+          "title": "AI Entegrasyonu",
+          "description": "Makine öğrenimi modellerinin (TensorFlow, PyTorch) ve dil modellerinin (ChatGPT API) web uygulamalarına entegrasyonunu sağlıyor; öneri motorları, chatbot’lar, otomatik veri analitiği ve akıllı otomasyon çözümleri geliştiriyorum."
+        }
+      ] 
+    },
+    "contactMe": "Benimle İletişime Geç!"
   },
   "Navigation": {
     "home": "Anasayfa",
@@ -10,6 +33,6 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} tr {ᴛʀ Turkish} other {Unknown}}"
+    "locale": "{locale, select, en {🇺🇸 English} tr {ᴛʀ Turkish} other {Unknown}}"
   }
 }

@@ -10,6 +10,6 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} tr {ᴛʀ Turkish} other {Unknown}}"
+    "locale": "{locale, select, en {🇺🇸 English} tr {ᴛʀ Turkish} other {Unknown}}"
   }
 }
